@@ -1,5 +1,7 @@
-# Ignore venv folder
 venv/
 
-# Ignore all .DS_Store files
 .DS_Store
+
+.ipynb_checkpoints/
+
+bible-word-frequencies.py
