@@ -3,5 +3,3 @@ venv/
 .DS_Store
 
 .ipynb_checkpoints/
-
-bible-word-frequencies.py
