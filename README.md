@@ -4,12 +4,13 @@
 This project analyzes word frequencies in the King James Version of the Bible, specifically comparing word frequencies between the Old and New Testaments.
 
 ## Dependencies
-- pandas
 - matplotlib
-- seaborn
-- numpy
-- wordcloud
 - nltk
+- numpy
+- pandas
+- seaborn
+- streamlit
+- wordcloud
 
 ## Contents
 - `bible-word-frequencies.ipynb`: Jupyter notebook containing the project.
