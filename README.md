@@ -1,4 +1,4 @@
-# bible-word-frequencies
+# Bible-Word-Frequencies
 
 ## Overview
 This project analyzes word frequencies in the King James Version of the Bible, specifically comparing word frequencies between the Old and New Testaments.
