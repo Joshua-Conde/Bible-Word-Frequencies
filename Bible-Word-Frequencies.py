@@ -17,10 +17,10 @@ from nltk.corpus import stopwords
 st.set_option("deprecation.showPyplotGlobalUse", False)
 
 # Load the dataset
-df = pd.read_csv("./data/kjv-bible.csv")
+df = pd.read_csv("./data/KJV-Bible.csv")
 
 # Load the auxiliary dataset
-df_auxiliary = pd.read_csv("./data/kjv-bible-books.csv")
+df_auxiliary = pd.read_csv("./data/KJV-Bible-Books.csv")
 
 # Create enriched DataFrame
 df_enriched = df_auxiliary.drop(["Tanakh", "New Jerusalem Version"], axis=1)
@@ -105,7 +105,7 @@ def plot_bar_chart(data, title):
 
 
 # Streamlit UI
-st.title("bible-word-frequencies")
+st.title("Bible-Word-Frequencies")
 
 st.header("Top 20 Words")
 plot_bar_chart(top_20_old_testament_words, "Top 20 Words in the Old Testament")
